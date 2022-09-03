@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cuprum&display=swap');
 
 * {
     margin: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Bangers', sans-serif;
     color: black;
 }
 
@@ -17,13 +17,20 @@ body {
 .header img {
     width: 100%;
     height: 25%;
+    margin: 0 auto;
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
 .header-text {
     position: absolute;
     top: 8px;
     left: 16px;
+    margin: 15px;
+    padding: 15px;
     text-transform: uppercase;
+    font-size: 200%;
 }
 
 
@@ -32,6 +39,8 @@ body {
     position: absolute;
     top: 8px;
     right: 16px;
+    margin: 20px;
+    padding: 20px;
 }
 
 #menu li {
@@ -40,3 +49,52 @@ body {
     padding-top: 10%;
 }
 
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    margin: 10px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid black;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 65%;
+    left: 15%;
+    font-size: 200%;
+    font-family: Cuprum;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 400px;
+    height: 300px;
+    color: white;
+    background-color: rgba(5, 5, 5, 0.5);
+    bottom: 50%;
+    right: 25%;
+    padding-left: 10px;
+
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+
+hr {
+    margin-right: 7px;
+}
+
+.hero-text p {
+    margin-top: 5px;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
