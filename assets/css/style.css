@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cuprum&display=swap');
 
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +18,7 @@ body {
     font-family: 'Bangers', sans-serif;
     color: black;
 }
+
 
 .hero-image {
     position: relative;
@@ -95,11 +105,54 @@ hr {
     margin-top: 5px;
 }
 
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+#about {
+    height: 100%;
+    overflow: hidden;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 400%;
+}
+
+#about-1 {
+    float: left;
+    font-size: 140%;
+    width: 45%;
+    height: 45%;
+}
+
+.about-img1 {
+    float: right;
+    width: 45%;
+    height: 54%;
+}
+
+.img1 {
+    width: 75%;
+    height: 75%;
+}
+
+#about2 {
+    height: 100%;
+    overflow: hidden;
+    margin-top: 10%;
+}
+
+#about-2 {
+    float: right;
+    font-size: 140%;
+    width: 45%;
+    height: 45%;
+}
+
+.about-img2 {
+    float: left;
+    width: 45%;
+    height: 54%;
+}
+
+.img2 {
+    width: 75%;
+    height: 75%;
 }
