@@ -295,3 +295,15 @@ span {
     background-color: #fafafa;
     color: black;
 }
+
+#sign-up {
+    height: 975px;
+    background-image: url('/assets/images/sign-up.jpg');
+}
+
+#sign-up h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 400%;
+    text-decoration: underline;
+}

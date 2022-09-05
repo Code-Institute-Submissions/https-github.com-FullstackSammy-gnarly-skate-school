@@ -8,3 +8,6 @@ On this website, you as a user will be able to find information about the school
 # Bugs & Fixes
 
 I encountered a bug where I can't get the header to blend into the background. I fixed the issue by googling my way to the conclusion found on this link: (https://www.w3schools.com/howto/howto_css_image_text.asp)
+
+I am boring the CI dumplink for the form on this site.
+The footer, I got from CI Love running Project.
