@@ -179,3 +179,66 @@ hr {
 #about p, #about2 p {
     font-family: 'Cuprum', sans-serif;
 }
+
+#lessons {
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+#lessons h2 {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 400%;
+    text-decoration: underline;
+}
+
+.street-box {
+    float: left;
+    font-size: 150%;
+    font-family: Cuprum;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 300px;
+    height: 400px;
+    color: whitesmoke;
+    background-color: rgba(5, 5, 5, 0.5);
+    padding-left: 10px;
+}
+
+.street-box h3 {
+    font-size: 200%;
+    text-align: center;
+    font-family: 'Bangers', sans-serif;
+}
+
+.street-box p, .street-box ul {
+    text-align: center;
+
+}
+
+.vert-box {
+    font-size: 150%;
+    font-family: Cuprum;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 300px;
+    height: 400px;
+    color: whitesmoke;
+    background-color: rgba(5, 5, 5, 0.5);
+    margin: 0 auto;
+    
+}
+        
+.pool-box {
+    float: right;
+    font-size: 150%;
+    font-family: Cuprum;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 300px;
+    height: 400px;
+    color: whitesmoke;
+    background-color: rgba(5, 5, 5, 0.5);
+    clear: both;
+}
