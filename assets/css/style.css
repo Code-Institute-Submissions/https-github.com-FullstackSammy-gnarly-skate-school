@@ -143,6 +143,7 @@ hr {
     height: 100%;
     overflow: hidden;
     margin-top: 5%;
+    margin-bottom: 2%;
 
 }
 
@@ -151,20 +152,23 @@ hr {
     font-size: 140%;
     width: 45%;
     height: 45%;
-    margin: 12% 3% 10% 0;
+    margin: 12% 10% 0 0 ;
+    padding-bottom: 5%;
     letter-spacing: 3px;
 }
 
 .about-img2 {
-    float: right;
-    width: 45%;
-    height: 45%;
-    margin: 5% 0 7% 5%;
+    float: left;
+    width: 25%;
+    height: 25%;
+    margin-top: 7%;
+    padding-left: 10%;
+    padding-bottom: 5%;
 }
 
 .img2 {
-    width: 75%;
-    height: 75%;
+    width: 500px;
+    height: 400px;
 }
 
 #about p, #about2 p {
