@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cuprum&display=swap');
 
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -30,7 +31,7 @@ span {
     height: auto;
     width: 100%;
     overflow: hidden;
-  }
+}
 
 .hero-image img {
     width: 100%;
@@ -102,7 +103,7 @@ span {
 
 }
 
-hr {
+.hero-text hr {
     margin-right: 10px;
 }
 
@@ -157,7 +158,7 @@ hr {
     font-size: 140%;
     width: 45%;
     height: 45%;
-    margin: 12% 10% 0 0 ;
+    margin: 12% 10% 0 0;
     padding-bottom: 5%;
     letter-spacing: 3px;
 }
@@ -176,14 +177,14 @@ hr {
     height: 400px;
 }
 
-#about p, #about2 p {
+#about p,
+#about2 p {
     font-family: 'Cuprum', sans-serif;
 }
 
 #lessons {
-    height: 100%;
+    height: 800px;
     overflow: hidden;
-    
 }
 
 #lessons h2 {
@@ -193,52 +194,104 @@ hr {
     text-decoration: underline;
 }
 
-.street-box {
+#street-box {
     float: left;
     font-size: 150%;
     font-family: Cuprum;
     text-transform: uppercase;
     letter-spacing: 3px;
-    width: 300px;
-    height: 400px;
+    width: 20%;
+    height: 450px;
     color: whitesmoke;
     background-color: rgba(5, 5, 5, 0.5);
-    padding-left: 10px;
+    margin: 100px 0 0 25%;
 }
 
-.street-box h3 {
+#street-box h3 {
     font-size: 200%;
     text-align: center;
     font-family: 'Bangers', sans-serif;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
-.street-box p, .street-box ul {
+#street-box p {
+    font-size: 125%;
     text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
 
 }
 
-.vert-box {
-    font-size: 150%;
-    font-family: Cuprum;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    width: 300px;
-    height: 400px;
-    color: whitesmoke;
-    background-color: rgba(5, 5, 5, 0.5);
-    margin: 0 auto;
-    
+#street-box ul {
+    text-align: center;
+    line-height: 150%;
+    list-style-position: inside;
+    margin-bottom: 50px;
 }
-        
-.pool-box {
+
+
+#vert-box {
     float: right;
     font-size: 150%;
     font-family: Cuprum;
     text-transform: uppercase;
     letter-spacing: 3px;
-    width: 300px;
-    height: 400px;
+    width: 20%;
+    height: 450px;
     color: whitesmoke;
     background-color: rgba(5, 5, 5, 0.5);
-    clear: both;
+    margin: 100px 25% 0 0;
+}
+
+#vert-box h3 {
+    font-size: 200%;
+    text-align: center;
+    font-family: 'Bangers', sans-serif;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#vert-box p {
+    font-size: 125%;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+}
+
+#vert-box ul {
+    text-align: center;
+    line-height: 150%;
+    list-style-position: inside;
+    margin-bottom: 50px;
+}
+
+.button {
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    font-size: 150%;
+    font-family: 'Bangers', sans-serif;
+    background-color: black;
+    color: #fafafa;
+    margin: 0 auto;
+    padding-right: 5px;
+    line-height: 150%;
+}
+
+#vert-box a {
+    text-decoration: none;
+}
+
+#street-box a {
+    text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #fafafa;
+    color: black;
 }
