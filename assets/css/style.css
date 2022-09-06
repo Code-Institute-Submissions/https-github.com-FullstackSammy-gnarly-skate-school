@@ -301,6 +301,13 @@ span {
     background-image: url('/assets/images/sign-up.jpg');
 }
 
+#sign-up h2 {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 400%;
+    text-decoration: underline;
+}
+
 .form-header {
     text-align: center;
     font-size: 200%;
@@ -318,7 +325,7 @@ span {
     height: 450px;
     color: whitesmoke;
     background-color: rgba(5, 5, 5, 0.5);
-    margin: 10% 0 0 25%;
+    margin: 5% 0 2px 25%;
     overflow: hidden;
 }
 
@@ -331,6 +338,10 @@ span {
     border-radius: 2px;
     margin: 5px 0 20px 0;
     font-family: 'Cuprum', sans-serif;
+}
+
+label {
+    padding-left: 2px;
 }
 
 .signup-button {
@@ -355,6 +366,7 @@ span {
 
 form p {
     font-family: 'Bangers', sans-serif;
+    padding-left: 2px;
 }
 
 footer {
