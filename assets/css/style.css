@@ -400,3 +400,25 @@ footer ul {
     }
 }
 
+@media screen and (max-width: 950px) {
+    .about-img1 {
+        padding-right: 40%;
+    }
+
+    #lessons {
+        height: fit-content;
+        margin-bottom: 5%;
+    }
+
+
+    #street-box {
+        width: 300px;
+        margin-left: 34%;
+    }
+
+    #vert-box {
+        width: 300px;
+        margin-right: 34%;
+    }
+}
+
