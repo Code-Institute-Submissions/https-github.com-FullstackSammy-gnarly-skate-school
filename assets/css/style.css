@@ -388,3 +388,15 @@ footer a {
 footer ul {
     margin-top: 1%;
 }
+
+@media screen and (max-width: 1200px) {
+    .about-img2 {
+        padding-right: 20%;
+    }
+
+    .about-img1 {
+        padding-left: 20%;
+        padding-right: 25%;
+    }
+}
+
