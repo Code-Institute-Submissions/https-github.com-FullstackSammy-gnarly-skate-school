@@ -31,22 +31,6 @@ span {
     background: url("/assets/images/hero-image.jpg") no-repeat center center;
 }
 
-.hero-image {
-    position: relative;
-    height: auto;
-    width: 100%;
-    overflow: hidden;
-}
-
-.hero-image img {
-    width: 100%;
-    height: 950px;
-    margin: 0 auto;
-    animation-name: hero-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-}
-
 .header-text {
     position: absolute;
     top: 8px;
@@ -55,6 +39,8 @@ span {
     padding: 15px;
     text-transform: uppercase;
     font-size: 200%;
+    display: flex;
+    flex: wrap;
 }
 
 .header-text a {
