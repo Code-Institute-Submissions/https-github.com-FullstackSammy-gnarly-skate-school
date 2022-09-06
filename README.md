@@ -11,3 +11,5 @@ I encountered a bug where I can't get the header to blend into the background. I
 
 I am boring the CI dumplink for the form on this site.
 The footer, I got from CI Love running Project.
+
+img being too big foor respsonsivness.

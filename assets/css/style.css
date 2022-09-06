@@ -52,6 +52,10 @@ header a {
     padding-top: 10%;
 }
 
+#menu {
+    margin-bottom: 15%;
+}
+
 #menu a {
     text-decoration: none;
     color: black;
@@ -65,20 +69,18 @@ header a {
 }
 
 .hero-text {
-
-    position: absolute;
-    bottom: 35%;
-    left: 20%;
-
     font-size: 200%;
     font-family: Cuprum;
     text-transform: uppercase;
     letter-spacing: 4px;
+
     width: 400px;
     height: 300px;
+
     color: white;
     background-color: rgba(5, 5, 5, 0.5);
-    padding-left: 10px;
+
+    margin: 0 auto;
 
     animation-name: hero-zoom;
     animation-duration: 3s;
@@ -287,6 +289,7 @@ header a {
 
 #sign-up h2 {
     margin-top: 2%;
+    margin-bottom: 5%;
     text-align: center;
     font-size: 400%;
     text-decoration: underline;
@@ -301,7 +304,6 @@ header a {
 
 .signup-form {
     text-align: center;
-    float: left;
     font-size: 100%;
     font-family: Cuprum;
     text-transform: uppercase;
@@ -310,7 +312,7 @@ header a {
     height: 450px;
     color: whitesmoke;
     background-color: rgba(5, 5, 5, 0.5);
-    margin: 5% 0 2px 25%;
+    margin: 0 auto;
     overflow: hidden;
 }
 
