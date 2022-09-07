@@ -158,7 +158,7 @@ header a {
 }
 
 #about {
-    height: 100%;
+    height: fit-content;
     overflow: hidden;
     margin-bottom: 2%;
 }
@@ -181,8 +181,7 @@ header a {
 }
 
 #about-1 {
-    float: left;
-    font-size: 140%;
+    font-size: 120%;
     letter-spacing: 3px;
     width: 70%;
     margin-left: 15%;
@@ -199,7 +198,7 @@ header a {
 
 #about-2 {
     float: left;
-    font-size: 140%;
+    font-size: 120%;
     letter-spacing: 3px;
     width: 70%;
     margin-left: 15%;
@@ -527,10 +526,47 @@ footer ul {
     #about-1,
     #about-2 {
         font-size: 100%;
-        text-align: center;
+    }
+
+
+    .img1, .img2 {
+        padding-top: 40px;
+    }
+
+    #about hr {
+        visibility: hidden;
+    }
+
+    #about h2,
+    #lessons h2,
+    #sign-up h2 {
+        font-size: 45px;
+    }
+
+
+
+    #street-box,
+    #vert-box {
+        width: 70%;
+        font-size: 115%;
+        margin-left: 15%;
 
     }
 
+    .signup-form {
+        width: 100%;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1201px) {
+    
+
+
+    
+
+    
 
     #about h2,
     #lessons h2,
