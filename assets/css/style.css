@@ -93,7 +93,7 @@ header {
 #header {
     text-align: center;
     height: 900px;
-    background: url("/assets/images/hero-image.jpg") no-repeat, center center;
+    background: url("../images/hero-image.jpg") no-repeat, center center;
 }
 
 #logo {
@@ -331,7 +331,7 @@ header a {
 
 #sign-up {
     height: 900px;
-    background-image: url('/assets/images/sign-up.jpg');
+    background-image: url('../images/sign-up.jpg');
     background-color: white;
 }
 
