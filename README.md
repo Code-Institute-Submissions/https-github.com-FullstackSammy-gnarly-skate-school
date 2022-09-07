@@ -15,3 +15,7 @@ The footer, I got from CI Love running Project.
 I encountered a bug where my bckgrnd images for the header and the signup page, did not show on the deployed link through Github. 
 
 img being too big foor respsonsivness.
+
+# Testing
+
+I tested both the html on (https://validator.w3.org/#validate_by_input) and css on (https://jigsaw.w3.org/css-validator/) and found no errors.
