@@ -12,7 +12,8 @@ I encountered a bug where I can't get the header to blend into the background. I
 I am boring the CI dumplink for the form on this site.
 The footer, I got from CI Love running Project.
 
-I encountered a bug where my bckgrnd images for the header and the signup page, did not show on the deployed link through Github. 
+I encountered a bug where my background images for the header and the signup page, did not show on the deployed link through Github. I fixed it by changing the directory of the background images. instead of having background-image: url ('/assets/images/hero-image.jpg') in css I removed the "/" and added "../" for it to work. So it looked like this:
+ url ('../assets/images/hero-image.jpg')
 
 img being too big foor respsonsivness.
 
