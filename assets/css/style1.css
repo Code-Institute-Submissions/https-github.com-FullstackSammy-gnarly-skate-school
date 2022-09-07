@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cuprum&display=swap');
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bangers', sans-serif;
+    color: black;
+    box-sizing: border-box;
+}

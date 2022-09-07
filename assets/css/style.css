@@ -13,12 +13,38 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Bangers', sans-serif;
     color: black;
+    
 }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
 
 span {
     font-style: italic;
@@ -99,6 +125,12 @@ header a {
 #about {
     height: 100%;
     overflow: hidden;
+    margin-bottom: 2%;
+}
+
+#about hr {
+    margin: 0 8% 0 8%;
+    border: 2px solid gray;
 }
 
 #about h2 {
@@ -108,58 +140,41 @@ header a {
     text-decoration: underline;
 }
 
+#about h3 {
+    text-decoration: underline;
+    
+}
+
 #about-1 {
     float: left;
     font-size: 140%;
-    width: 45%;
-    height: 45%;
-    margin: 12% 0 0 10%;
     letter-spacing: 3px;
-}
-
-.about-img1 {
-    float: right;
-    width: 25%;
-    height: 25%;
-    margin-top: 7%;
-    padding-right: 10%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15%;
+    bottom: 5%;
 }
 
 .img1 {
-    width: 500px;
-    height: 400px;
-}
-
-#about2 {
-    height: 100%;
-    overflow: hidden;
+    width: 70%;
+    margin-left: 15%;
     margin-top: 5%;
-    margin-bottom: 2%;
-
+    margin-bottom: 5%;
 }
 
 #about-2 {
-    float: right;
-    font-size: 140%;
-    width: 45%;
-    height: 45%;
-    margin: 12% 10% 0 0;
-    padding-bottom: 5%;
-    letter-spacing: 3px;
-}
-
-.about-img2 {
     float: left;
-    width: 25%;
-    height: 25%;
-    margin-top: 7%;
-    padding-left: 10%;
-    padding-bottom: 5%;
+    font-size: 140%;
+    letter-spacing: 3px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15%;
 }
 
 .img2 {
-    width: 500px;
-    height: 400px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
 }
 
 #about p,
@@ -374,4 +389,33 @@ footer a {
 
 footer ul {
     margin-top: 1%;
+}
+
+/* media querys */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .col-6 {
+        width: 100%;
+    }
+    #about-1, #about-2 {
+        font-size: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .col-6 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px)  {
+    .img1, .img2 {
+        width: 70%;
+        margin-left: 15%;
+    }
+    #about-1, #about-2{
+        width: 70%;
+        margin-left: 15%;
+    }
 }
