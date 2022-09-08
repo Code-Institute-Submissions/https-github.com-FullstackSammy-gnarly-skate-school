@@ -107,15 +107,12 @@ header a {
     text-align: right;
     margin: 20px;
     padding: 5px;
+    margin-bottom: 15%;
 }
 
 #menu li {
     display: inline;
     margin: 5px;
-}
-
-#menu {
-    margin-bottom: 15%;
 }
 
 #menu a {
@@ -164,36 +161,30 @@ header a {
     margin-bottom: 2%;
 }
 
+#sign-up h2,
+#about h2,
+#lessons h2 {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 400%;
+    text-decoration: underline;
+}
+
 #about hr {
     margin: 0 8% 0 8%;
     border: 2px solid gray;
     visibility: hidden;
 }
 
-#about h2 {
-    margin-top: 1%;
-    text-align: center;
-    font-size: 400%;
-    text-decoration: underline;
-}
+
 
 #about h3 {
     text-decoration: underline;
 
 }
 
-#about-1 {
-    font-size: 120%;
-    letter-spacing: 3px;
-    width: 70%;
-    margin: 15% 0 0 15%;
-}
-
-.img1 {
-    width: 70%;
-    margin: 5% 0 5% 15%;
-}
-
+#about-1,
 #about-2 {
     font-size: 120%;
     letter-spacing: 3px;
@@ -201,9 +192,10 @@ header a {
     margin: 15% 0 0 15%;
 }
 
+.img1,
 .img2 {
     width: 70%;
-    margin: 5% 0 0 15%;
+    margin: 5% 0 5% 15%;
 }
 
 #about p,
@@ -216,51 +208,8 @@ header a {
     overflow: hidden;
 }
 
-#lessons h2 {
-    margin-top: 1%;
-    text-align: center;
-    font-size: 400%;
-    text-decoration: underline;
-}
-
+#vert-box,
 #street-box {
-    font-size: 150%;
-    font-family: Cuprum;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    width: 70%;
-    margin-left: 15%;
-    height: 300px;
-    color: whitesmoke;
-    background-color: rgba(5, 5, 5, 1);
-}
-
-#street-box h3 {
-    font-size: 200%;
-    text-align: center;
-    font-family: 'Bangers', sans-serif;
-    text-decoration: underline;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-
-#street-box p {
-    font-size: 125%;
-    text-align: center;
-    margin-bottom: 10px;
-    text-decoration: underline;
-
-}
-
-#street-box ul {
-    text-align: center;
-    line-height: 150%;
-    list-style-position: inside;
-    margin-bottom: 50px;
-}
-
-
-#vert-box {
 
     font-size: 150%;
     font-family: Cuprum;
@@ -272,7 +221,8 @@ header a {
     background-color: rgba(5, 5, 5, 1);
 }
 
-#vert-box h3 {
+#vert-box h3,
+#street-box h3 {
     font-size: 200%;
     text-align: center;
     font-family: 'Bangers', sans-serif;
@@ -280,7 +230,8 @@ header a {
 
 }
 
-#vert-box p {
+#vert-box p,
+#street-box p {
     font-size: 125%;
     text-align: center;
     margin-bottom: 10px;
@@ -289,7 +240,8 @@ header a {
     margin-top: 15px;
 }
 
-#vert-box ul {
+#vert-box ul,
+#street-box ul {
     text-align: center;
     line-height: 150%;
     list-style-position: inside;
@@ -309,14 +261,6 @@ header a {
     line-height: 150%;
 }
 
-#vert-box a {
-    text-decoration: none;
-}
-
-#street-box a {
-    text-decoration: none;
-}
-
 .button:hover {
     cursor: pointer;
     background-color: #fafafa;
@@ -329,13 +273,6 @@ header a {
     background-color: white;
 }
 
-#sign-up h2 {
-    margin-top: 2%;
-    margin-bottom: 5%;
-    text-align: center;
-    font-size: 400%;
-    text-decoration: underline;
-}
 
 .form-header {
     text-align: center;
@@ -427,8 +364,9 @@ footer ul {
 
 
     #header {
-        height: 700px;
+        height: 600px;
         background: url("../images/hero-image2.jpg") no-repeat, center center;
+        overflow: hidden;
     }
 
     #about-1,
