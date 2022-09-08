@@ -24,8 +24,7 @@ body {
 
 }
 
-/*I used grid layout so structure the site and make it responsive with media queries. Down below is the code for that. Taken from (https://www.w3schools.com/css/css_rwd_grid.asp)*/
-
+/*I used grid layout to structure the site and make it responsive with media queries. Down below is the code for that. Taken from (https://www.w3schools.com/css/css_rwd_grid.asp)*/
 .row::after {
     content: "";
     clear: both;
@@ -94,7 +93,7 @@ span {
 
 
 #header {
-    height: 800px;
+    height: 900px;
     /*Image taken from (https://unsplash.com/photos/1aN4D5Glza8)*/
     background: url("../images/hero-image.jpg") no-repeat, center center;
 }
@@ -367,7 +366,6 @@ footer ul {
 
 
     #header {
-        height: 600px;
         background: url("../images/hero-image2.jpg") no-repeat, center center;
         overflow: hidden;
     }
@@ -441,7 +439,6 @@ footer ul {
     }
 
     #header {
-        height: 600px;
         background: url("../images/hero-image2.jpg") no-repeat, center center;
     }
 
