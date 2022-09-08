@@ -86,18 +86,14 @@ span {
     font-weight: bold;
 }
 
-header {
-    width: 100%;
-}
+
 
 #header {
-    text-align: center;
-    height: 900px;
+    height: 800px;
     background: url("../images/hero-image.jpg") no-repeat, center center;
 }
 
 #logo {
-    padding: 15px;
     text-transform: uppercase;
     font-size: 80px;
 }
@@ -107,10 +103,15 @@ header a {
     color: black;
 }
 
+#menu {
+    text-align: right;
+    margin: 20px;
+    padding: 5px;
+}
+
 #menu li {
     display: inline;
     margin: 5px;
-    padding-top: 10%;
 }
 
 #menu {
@@ -141,7 +142,7 @@ header a {
     color: white;
     background-color: rgba(5, 5, 5, 0.5);
 
-    margin: 0 auto;
+    margin: 5% 0 0 25%;
 
     animation-name: hero-zoom;
     animation-duration: 3s;
@@ -150,7 +151,7 @@ header a {
 }
 
 .hero-text hr {
-    margin-right: 10px;
+    margin: 0 10px 0 10px;
 }
 
 .hero-text p {
@@ -185,31 +186,24 @@ header a {
     font-size: 120%;
     letter-spacing: 3px;
     width: 70%;
-    margin-left: 15%;
-    margin-top: 15%;
-    bottom: 5%;
+    margin: 15% 0 0 15%;
 }
 
 .img1 {
     width: 70%;
-    margin-left: 15%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5% 0 5% 15%;
 }
 
 #about-2 {
-    float: left;
     font-size: 120%;
     letter-spacing: 3px;
     width: 70%;
-    margin-left: 15%;
-    margin-top: 15%;
+    margin: 15% 0 0 15%;
 }
 
 .img2 {
     width: 70%;
-    margin-left: 15%;
-    margin-top: 5%;
+    margin: 5% 0 0 15%;
 }
 
 #about p,
@@ -283,8 +277,7 @@ header a {
     text-align: center;
     font-family: 'Bangers', sans-serif;
     text-decoration: underline;
-    margin-bottom: 15px;
-    margin-top: 15px;
+
 }
 
 #vert-box p {
@@ -292,7 +285,8 @@ header a {
     text-align: center;
     margin-bottom: 10px;
     text-decoration: underline;
-
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 #vert-box ul {
@@ -431,6 +425,12 @@ footer ul {
         width: 100%;
     }
 
+
+    #header {
+        height: 700px;
+        background: url("../images/hero-image2.jpg") no-repeat, center center;
+    }
+
     #about-1,
     #about-2 {
         font-size: 100%;
@@ -441,30 +441,55 @@ footer ul {
     #about h2,
     #lessons h2,
     #sign-up h2 {
-        font-size: 45px;
+        font-size: 25px;
     }
 
     .hero-text {
-        font-size: 25px;
+        font-size: 20px;
         height: fit-content;
         width: 100%;
-        margin-top: 40%;
+        margin: 0 auto;
+        margin-top: 70%;
+        text-align: center;
     }
 
     #street-box,
     #vert-box {
         width: 70%;
-        font-size: 115%;
+        font-size: 15px;
         margin-left: 15%;
 
     }
 
+    #street-box h3,
+    #vert-box h3 {
+        font-size: 20px;
+    }
+
+    #street-box p,
+    #vert-box p {
+        font-size: 15px;
+    }
+
     #logo {
-        font-size: 50px;
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #menu {
+        text-align: center;
+        font-size: 12px;
+        margin: 1px;
     }
 
     .signup-form {
         width: 100%;
+        margin-top: 40%;
+    }
+
+    footer {
+        font-size: 20px;
     }
 }
 
@@ -473,7 +498,10 @@ footer ul {
         width: 100%;
     }
 
-
+    #header {
+        height: 700px;
+        background: url("../images/hero-image2.jpg") no-repeat, center center;
+    }
 
     #about h2,
     #lessons h2,
@@ -485,13 +513,40 @@ footer ul {
     #street-box,
     #vert-box {
         width: 70%;
-        font-size: 115%;
+        font-size: 15px;
         margin-left: 15%;
 
     }
 
+    #street-box h3,
+    #vert-box h3 {
+        font-size: 25px;
+    }
+
+    #logo {
+        width: 100%;
+        font-size: 55px;
+        text-align: center;
+    }
+
+    #menu {
+        text-align: center;
+        font-size: 15px;
+        margin: 1px;
+    }
+
+    .hero-text {
+        font-size: 25px;
+        height: fit-content;
+        width: 70%;
+        margin-top: 50%;
+
+        padding-left: 5px;
+    }
+
     .signup-form {
         width: 100%;
+        margin-top: 25%;
     }
 }
 
@@ -500,7 +555,18 @@ footer ul {
         width: 100%;
     }
 
+    #header {
+        height: 900px;
+        background: url("../images/hero-image3.jpg") no-repeat, center center;
+    }
 
+    #logo {
+        text-align: center;
+    }
+
+    #menu {
+        text-align: center;
+    }
 
     #about h2,
     #lessons h2,
@@ -513,24 +579,41 @@ footer ul {
     #street-box,
     #vert-box {
         width: 70%;
-        font-size: 115%;
+        font-size: 15px;
         margin-left: 15%;
 
     }
 
     .signup-form {
         width: 100%;
+        margin-top: 10%;
     }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    #header {
+        height: 900px;
+        background: url("../images/hero-image3.jpg") no-repeat, center center;
+    }
+
+    #logo {
+        font-size: 60px;
+        margin: 5px;
+    }
+
+    .hero-text {
+        margin-top: 20%;
+    }
+
     #about-1,
     #about-2 {
         font-size: 100%;
     }
 
 
-    .img1, .img2 {
+    .img1,
+    .img2 {
         padding-top: 40px;
     }
 
@@ -556,18 +639,25 @@ footer ul {
 
     .signup-form {
         width: 100%;
+        margin-top: 10%;
     }
 
-    
+
 }
 
 @media only screen and (min-width: 1201px) {
-    
 
+    #header {
+        height: 900px;
+    }
 
-    
+    #logo {
+        font-size: 70px;
+    }
 
-    
+    .hero-text {
+        margin-top: 10%;
+    }
 
     #about h2,
     #lessons h2,
@@ -587,7 +677,8 @@ footer ul {
 
     .signup-form {
         width: 100%;
+        margin-top: 10%;
     }
 
-    
+
 }
