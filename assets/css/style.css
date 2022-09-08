@@ -134,12 +134,12 @@ header a {
     letter-spacing: 3px;
 
     width: 400px;
-    height: 300px;
+    height: fit-content;
 
     color: white;
     background-color: rgba(5, 5, 5, 0.5);
 
-    margin: 5% 0 0 25%;
+    margin: 0 auto;
 
     animation-name: hero-zoom;
     animation-duration: 3s;
@@ -161,13 +161,19 @@ header a {
     margin-bottom: 2%;
 }
 
-#sign-up h2,
+
 #about h2,
 #lessons h2 {
-    margin-top: 2%;
-    margin-bottom: 5%;
+    margin: 20px;
     text-align: center;
-    font-size: 400%;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.signup-header {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 40px;
     text-decoration: underline;
 }
 
@@ -206,6 +212,7 @@ header a {
 #lessons {
     height: fit-content;
     overflow: hidden;
+    margin-bottom: 5%;
 }
 
 #vert-box,
@@ -372,7 +379,6 @@ footer ul {
     #about-1,
     #about-2 {
         font-size: 100%;
-        text-align: center;
 
     }
 
@@ -383,13 +389,13 @@ footer ul {
     }
 
     .hero-text {
-        font-size: 20px;
+        font-size: 15px;
         height: fit-content;
-        width: 100%;
+        width: 70%;
         margin: 0 auto;
         margin-top: 70%;
-        text-align: center;
         overflow: hidden;
+        padding-left: 5px;
     }
 
     #street-box,
@@ -423,7 +429,8 @@ footer ul {
     }
 
     .signup-form {
-        width: 100%;
+        width: 70%;
+        margin-right: 15%;
         margin-top: 10%;
     }
 
@@ -495,8 +502,9 @@ footer ul {
     }
 
     #header {
-        height: 900px;
+        height: 800px;
         background: url("../images/hero-image3.jpg") no-repeat, center center;
+        overflow: hidden;
     }
 
     #logo {
@@ -533,7 +541,7 @@ footer ul {
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
 
     #header {
-        height: 900px;
+        height: 800px;
         background: url("../images/hero-image3.jpg") no-repeat, center center;
     }
 
@@ -588,9 +596,6 @@ footer ul {
 
 @media only screen and (min-width: 1201px) {
 
-    #header {
-        height: 900px;
-    }
 
     #logo {
         font-size: 70px;

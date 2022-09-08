@@ -5,7 +5,7 @@ The Gnarly Skate School webiste are a website where parents can read about us an
 On this website, you as a user will be able to find information about the school, the type of lessons we provide, a gallery and a sign up form. 
 
 
-# Bugs & Fixes
+## Bugs & Fixes
 
 I encountered a bug where I can't get the header to blend into the background. I fixed the issue by googling my way to the conclusion found on this link: (https://www.w3schools.com/howto/howto_css_image_text.asp)
 
@@ -17,6 +17,6 @@ I encountered a bug where my background images for the header and the signup pag
 
 img being too big foor respsonsivness.
 
-# Testing
+## Testing
 
 I tested both the html on (https://validator.w3.org/#validate_by_input) and css on (https://jigsaw.w3.org/css-validator/) and found no errors.
