@@ -178,6 +178,10 @@ header a {
     text-decoration: underline;
 }
 
+#about h3 {
+    text-decoration: underline;
+}
+
 
 #about hr {
     margin: 0 8% 0 8%;
@@ -551,6 +555,7 @@ footer ul {
 
     .hero-text {
         margin-top: 20%;
+        padding-left: 5px;
         overflow: hidden;
     }
 
@@ -602,6 +607,7 @@ footer ul {
 
     .hero-text {
         margin-top: 10%;
+        padding-left: 5px;
     }
 
     #about h2,
