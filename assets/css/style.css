@@ -92,8 +92,9 @@ span {
 
 
 
+
 #header {
-    height: 750px;
+    height: 800px;
     /*Image taken from (https://unsplash.com/photos/1aN4D5Glza8)*/
     background: url("../images/hero-image.jpg") no-repeat, center center;
 }
@@ -170,31 +171,18 @@ header a {
 
 
 #about h2,
-#lessons h2 {
-    margin: 20px;
+#lessons h2,
+#sign-up h2 {
     text-align: center;
     font-size: 40px;
     text-decoration: underline;
 }
 
-.signup-header {
-    padding-top: 10px;
-    text-align: center;
-    font-size: 40px;
-    text-decoration: underline;
-}
 
 #about hr {
     margin: 0 8% 0 8%;
     border: 2px solid gray;
     visibility: hidden;
-}
-
-
-
-#about h3 {
-    text-decoration: underline;
-
 }
 
 #about-1,
@@ -224,7 +212,7 @@ header a {
 
 #vert-box,
 #street-box {
-
+    margin: 5%;
     font-size: 150%;
     font-family: Cuprum;
     text-transform: uppercase;
@@ -510,7 +498,6 @@ footer ul {
     }
 
     #header {
-        height: 700px;
         background: url("../images/hero-image3.jpg") no-repeat, center center;
         overflow: hidden;
     }
@@ -556,7 +543,6 @@ footer ul {
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
 
     #header {
-        height: 700px;
         background: url("../images/hero-image3.jpg") no-repeat, center center;
     }
 
