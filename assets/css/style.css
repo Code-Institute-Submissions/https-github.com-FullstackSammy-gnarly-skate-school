@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cuprum&display=swap');
 
+
+/* I learned about animations in the Code Institutes Love Running project. and decided to use it for my hero-text.*/
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -21,6 +23,8 @@ body {
     color: black;
 
 }
+
+/*I used grid layout so structure the site and make it responsive with media queries. Down below is the code for that. Taken from (https://www.w3schools.com/css/css_rwd_grid.asp)*/
 
 .row::after {
     content: "";
@@ -90,6 +94,7 @@ span {
 
 #header {
     height: 800px;
+    /*Image taken from (https://unsplash.com/photos/1aN4D5Glza8)*/
     background: url("../images/hero-image.jpg") no-repeat, center center;
 }
 
@@ -127,6 +132,8 @@ header a {
     border-bottom: 1px solid black;
 }
 
+
+/* The idea for this hero text was taken from the Code institute Love Running Project. I used it as a template and made it my own */
 .hero-text {
     font-size: 200%;
     font-family: Cuprum;
@@ -276,6 +283,7 @@ header a {
 
 #sign-up {
     height: 900px;
+    /*This photo was taken from (https://unsplash.com/photos/ISkeH2SLqNU)*/
     background-image: url('../images/sign-up.jpg');
     background-color: white;
 }
