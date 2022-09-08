@@ -70,34 +70,26 @@ The footer is at the bottom of the page and shows social media links that will t
 
 ![an image of footer](assets/images/footer.jpg)
 
-## **Testing**
-
----
-
-- I have confirmed that this site is responsive, by using css grid layout and media queries to size it to different resolutions.
-- I have deployed my site to Github pages, and made sure it works on Chrome, Safari and Firefox.
-- The form works as it's supposed to. I have borrowed Code Institutes link (https://formdump.codeinstitute.net/) for forms and you can't sign up unless you fill out all the required fields.
-
----
 
 ## **Bugs & Fixes**
 
 I encountered a bug where my background images for the header and the signup page, did not show on the deployed link through Github. I fixed it by changing the directory of the background images. instead of having background-image: `url('/assets/images/hero-image.jpg')` in css I removed the "/" and added "../" for it to work. So it looked like this:
 `url('../assets/images/hero-image.jpg')`
 
----
 
 ## **Testing**
 ### **HTML**
-- I tested my html code on (https://validator.w3.org/#validate_by_input) and found no errors.
+- I tested my html code on [W3C HTML validator](https://validator.w3.org/#validate_by_input) and found no errors.
 ### **CSS**
-- I tested my css code on (https://jigsaw.w3.org/css-validator/) and found no errors.
+- I tested my css code on [W3C css validator](https://jigsaw.w3.org/css-validator/) and found no errors.
 ### **Accessibility**
 - I made sure that the colors I used are easy to read and go well together. and I tested it on lighthouse in devtools.
 
-![an image of the lighthouse testing](assets/images/lighthouse.jpg)
+- I have confirmed that this site is responsive, by using css grid layout and media queries to size it to different resolutions.
+- I have deployed my site to Github pages, and made sure it works on Chrome, Safari and Firefox.
+- The form works as it's supposed to. I have borrowed Code Institutes [link](https://formdump.codeinstitute.net/) for forms and you can't sign up unless you fill out all the required fields.
 
----
+![an image of the lighthouse testing](assets/images/lighthouse.jpg)
 
 ## **Unfixed Bugs**
 
@@ -112,8 +104,6 @@ The site is deployed to GitHub pages and to deploy it you need to do the followi
 - Lastly, click the "save" button
 
 You can find the live link to my site [here](https://fullstacksammy.github.io/gnarly-skate-school/).
-
----
 
 ## **Credits**
 
