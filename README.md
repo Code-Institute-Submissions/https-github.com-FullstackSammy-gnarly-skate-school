@@ -1,4 +1,4 @@
-# **Gnarly Skate School**
+# **Gnarly Skate School** | [live site](https://fullstacksammy.github.io/gnarly-skate-school/)
 
 The Gnarly Skate School webiste are a website where parents can read about us and sign up, to have their kids learn skateboaring in all its forms. We teach kids from age 8-15 and of all skill levels. We offer a safe environment, progress and a lot of fun! 
 
@@ -8,7 +8,7 @@ This website is a one-page website with 4 differents sections. On this website, 
 
 
 ## **Features**
----
+
 ### **Navigation** 
 
 On the top of the site, you have the navigation bar. The logo or "headline" to the left and navigation options to the right. The following options are:
@@ -51,7 +51,7 @@ Here you can find all the information about the different lessons that are offer
 - Street lessons (skating on street ramps, down stairs, rails etc)
 - Vert lessons (skating on a big ramp)
 
-![an image of the about section](assets/images/lessons-section.jpg)
+![an image of the lessons section](assets/images/lessons-section.jpg)
 
 ### **The Sign Up section**
 
@@ -68,13 +68,15 @@ The footer is at the bottom of the page and shows social media links that will t
 - Twitter
 - Youtube
 
-![an image of footer](assets/images/footer.jpg)
+![an image of the footer](assets/images/footer.jpg)
 
 
 ## **Bugs & Fixes**
 
 I encountered a bug where my background images for the header and the signup page, did not show on the deployed link through Github. I fixed it by changing the directory of the background images. instead of having background-image: `url('/assets/images/hero-image.jpg')` in css I removed the "/" and added "../" for it to work. So it looked like this:
 `url('../assets/images/hero-image.jpg')`
+
+I encountered a bug where the second image of the about page dropped out of margin in the Firefox webbrowser (desktop view). I fixed it by resizing the images to be centered and by changing the height.
 
 
 ## **Testing**
@@ -83,11 +85,17 @@ I encountered a bug where my background images for the header and the signup pag
 ### **CSS**
 - I tested my css code on [W3C css validator](https://jigsaw.w3.org/css-validator/) and found no errors.
 ### **Accessibility**
-- I made sure that the colors I used are easy to read and go well together. and I tested it on lighthouse in devtools.
+
 
 - I have confirmed that this site is responsive, by using css grid layout and media queries to size it to different resolutions.
-- I have deployed my site to Github pages, and made sure it works on Chrome, Safari and Firefox.
+- I have deployed my site to Github pages, and made sure it works on Chrome, Safari and Firefox. I have also tested the website on different physical devised and made sure the site works on them. These are:
+  - Iphone 13 pro
+  - Samsung Galaxy S21
+  - Samsung Galaxy S22
+
 - The form works as it's supposed to. I have borrowed Code Institutes [link](https://formdump.codeinstitute.net/) for forms and you can't sign up unless you fill out all the required fields.
+
+- I made sure that the colors I used are easy to read and go well together. and I tested it on lighthouse in devtools.
 
 ![an image of the lighthouse testing](assets/images/lighthouse.jpg)
 
@@ -103,7 +111,7 @@ The site is deployed to GitHub pages and to deploy it you need to do the followi
 - Choose "Deploy from a branch" and when choosing branch, choose the branch named "main"
 - Lastly, click the "save" button
 
-You can find the live link to my site [here](https://fullstacksammy.github.io/gnarly-skate-school/).
+You can find the live link to my site 
 
 ## **Credits**
 

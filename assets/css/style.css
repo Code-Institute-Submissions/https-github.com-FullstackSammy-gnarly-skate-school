@@ -197,16 +197,19 @@ header a {
     margin: 15% 0 0 15%;
 }
 
-.img1,
-.img2 {
+.img{
     width: 70%;
-    margin: 5% 0 5% 15%;
+    margin: 5% 15% 5% 15%;
+    height: 350px;
 }
 
 #about p,
 #about2 p {
     font-family: 'Cuprum', sans-serif;
+    margin-top: 5px;
 }
+
+
 
 #lessons {
     height: fit-content;
@@ -252,6 +255,7 @@ header a {
     line-height: 150%;
     list-style-position: inside;
     margin-bottom: 50px;
+    padding: 0 10px 0 10px;
 }
 
 .button {
@@ -387,6 +391,10 @@ footer ul {
         font-size: 25px;
     }
 
+    .img {
+        height: 200px;
+    }
+
     .hero-text {
         font-size: 15px;
         height: fit-content;
@@ -453,6 +461,9 @@ footer ul {
         font-size: 45px;
     }
 
+    img {
+        height: 200px;
+    }
 
     #street-box,
     #vert-box {
@@ -497,6 +508,11 @@ footer ul {
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .col-6 {
         width: 100%;
+    }
+
+    .img {
+
+        height: 400px;
     }
 
     #header {
