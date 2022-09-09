@@ -1,8 +1,10 @@
-# **Gnarly Skate School** | [live site](https://fullstacksammy.github.io/gnarly-skate-school/)
+# **Gnarly Skate School**
 
-The Gnarly Skate School webiste are a website where parents can read about us and sign up, to have their kids learn skateboaring in all its forms. We teach kids from age 8-15 and of all skill levels. We offer a safe environment, progress and a lot of fun! 
+[Live site](https://fullstacksammy.github.io/gnarly-skate-school/)
 
-This website is a one-page website with 4 differents sections. On this website, you as a user will be able to find a beautiful header with navigation, information about the school, the type of lessons we provide, pictures and a sign up form.
+The Gnarly Skate School is a private skateboarding school. And the website is a place where you can read about the school and sign up to book a lesson and to have your kids and even you learn skateboaring in all its forms. We teach people of all ages and of all skill levels. We offer a safe environment, progress and a lot of fun! 
+
+This website is a one-page website with 4 differents sections. On this website, you as a user will be able to find a beautiful header with navigation, information about the school and pictures. The type of lessons we provide and a sign up form.
 
 ![an image of the site in different resolutions](assets/images/ui.jpg)
 
@@ -20,7 +22,7 @@ On the top of the site, you have the navigation bar. The logo or "headline" to t
 ![an image of the navigation bar](assets/images/Nav.jpg)
 
 
-### **Hero-text**
+### **Hero text**
 On the header, there is a hero-text wich zooms in when the site is finished loading. The hero text is clear and tells the user exactly what this site is about.
 
 
@@ -29,10 +31,10 @@ On the header, there is a hero-text wich zooms in when the site is finished load
 
 ### **Header**
 
-For the header, I chose to have kind of a hero image and put my content ontop of it. The header consists of:
+For the header, I chose to have a full background image and put my content ontop of it. The header consists of:
 - Navigation bar
 - Hero text for the website
-- Hero Image
+- Background image/Hero image
 
 It is very clear to the user what and who the site is for and easy to navigate to different sections.
 
@@ -41,7 +43,7 @@ It is very clear to the user what and who the site is for and easy to navigate t
 
 ### **The About Us section**
 
-On the About Us section, you can find all the information you need about who Gnarly Skate School is and what they stand for and how you can book a session.
+On the About Us section, you can find all the information you need about Gnarly Skate School and what they stand for and how you can book a session. There is also 2 pictures to be seen in this section.
 
 ![an image of the about section](assets/images/about.jpg)
 
@@ -55,7 +57,7 @@ Here you can find all the information about the different lessons that are offer
 
 ### **The Sign Up section**
 
-This is the part of the website where you as a user can sign up for to our roster and we will contact you for booking of lessons. The section consists of:
+This is the part of the website where you as a user can sign up to our roster and we will contact you for booking of lessons. The section consists of:
 - A background image 
 - A Sign Up form (where you need to fill out all the fields correctly to proceed)
 
@@ -76,7 +78,7 @@ The footer is at the bottom of the page and shows social media links that will t
 I encountered a bug where my background images for the header and the signup page, did not show on the deployed link through Github. I fixed it by changing the directory of the background images. instead of having background-image: `url('/assets/images/hero-image.jpg')` in css I removed the "/" and added "../" for it to work. So it looked like this:
 `url('../assets/images/hero-image.jpg')`
 
-I encountered a bug where the second image of the about page dropped out of margin in the Firefox webbrowser (desktop view). I fixed it by resizing the images to be centered and by changing the height.
+I encountered a bug where the second image of the about page dropped out of margin in the Firefox webbrowser (desktop view). I fixed it by re-positioning the images to be centered and by changing the height to 400px.
 
 
 ## **Testing**
@@ -88,7 +90,7 @@ I encountered a bug where the second image of the about page dropped out of marg
 
 
 - I have confirmed that this site is responsive, by using css grid layout and media queries to size it to different resolutions.
-- I have deployed my site to Github pages, and made sure it works on Chrome, Safari and Firefox. I have also tested the website on different physical devised and made sure the site works on them. These are:
+- I have made sure it works on Chrome, Safari and Firefox. I have also tested the website on different physical devised and made sure the site works on them. These are:
   - Iphone 13 pro
   - Samsung Galaxy S21
   - Samsung Galaxy S22
@@ -111,12 +113,12 @@ The site is deployed to GitHub pages and to deploy it you need to do the followi
 - Choose "Deploy from a branch" and when choosing branch, choose the branch named "main"
 - Lastly, click the "save" button
 
-You can find the live link to my site 
+You can find the live link to my site [here](https://fullstacksammy.github.io/gnarly-skate-school/).
 
 ## **Credits**
 
 ### **Content**
-- The content used for animations of the hero-text was taken from CI [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) project.
+- The content used for animations of the hero-text was taken from CI [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) project. The desing for the sign up form was also inspired by CI [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) project.
 
 ### **Images**
 - The free use images used in this project were all taken from [Unsplash](https://unsplash.com/).

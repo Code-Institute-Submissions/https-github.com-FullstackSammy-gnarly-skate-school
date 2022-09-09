@@ -24,7 +24,7 @@ body {
 
 }
 
-/*I used grid layout to structure the site and make it responsive with media queries. Down below is the code for that. Taken from (https://www.w3schools.com/css/css_rwd_grid.asp)*/
+/*I learned about and used grid layout to structure the site and make it responsive with media queries. Down below is the code for that. Taken from (https://www.w3schools.com/css/css_rwd_grid.asp)*/
 .row::after {
     content: "";
     clear: both;
@@ -156,7 +156,7 @@ header a {
 }
 
 .hero-text hr {
-    margin: 0 10px 0 10px;
+    margin: 0 5px 0 2px;
 }
 
 .hero-text p {
@@ -170,12 +170,11 @@ header a {
 }
 
 
-#about h2,
-#lessons h2,
-#sign-up h2 {
+.section-header {
     text-align: center;
     font-size: 40px;
     text-decoration: underline;
+    margin-top: 10px;
 }
 
 #about h3 {
@@ -189,27 +188,23 @@ header a {
     visibility: hidden;
 }
 
-#about-1,
-#about-2 {
+.about-text {
     font-size: 120%;
     letter-spacing: 3px;
     width: 70%;
     margin: 15% 0 0 15%;
 }
 
-.img{
+#about p {
+    font-family: 'Cuprum', sans-serif;
+    margin-top: 7px;
+}
+
+.img {
     width: 70%;
     margin: 5% 15% 5% 15%;
-    height: 350px;
+    height: 400px;
 }
-
-#about p,
-#about2 p {
-    font-family: 'Cuprum', sans-serif;
-    margin-top: 5px;
-}
-
-
 
 #lessons {
     height: fit-content;
@@ -217,8 +212,7 @@ header a {
     margin-bottom: 5%;
 }
 
-#vert-box,
-#street-box {
+.lessons-box {
     margin: 5%;
     font-size: 150%;
     font-family: Cuprum;
@@ -230,8 +224,7 @@ header a {
     background-color: rgba(5, 5, 5, 1);
 }
 
-#vert-box h3,
-#street-box h3 {
+.lessons-box h3 {
     font-size: 200%;
     text-align: center;
     font-family: 'Bangers', sans-serif;
@@ -239,8 +232,7 @@ header a {
 
 }
 
-#vert-box p,
-#street-box p {
+.lessons-box p {
     font-size: 125%;
     text-align: center;
     margin-bottom: 10px;
@@ -249,8 +241,7 @@ header a {
     margin-top: 15px;
 }
 
-#vert-box ul,
-#street-box ul {
+.lessons-box ul {
     text-align: center;
     line-height: 150%;
     list-style-position: inside;
@@ -289,9 +280,10 @@ header a {
     text-align: center;
     font-size: 200%;
     margin: 20px 0 30px 20px;
+    padding-right: 15px;
     font-family: 'Bangers', sans-serif;
 }
-
+/*The design for this signup form was inspired by code institutes Love Running project. (https://github.com/Code-Institute-Org/love-running-2.0)*/
 .signup-form {
     text-align: center;
     font-size: 100%;
@@ -379,15 +371,11 @@ footer ul {
         overflow: hidden;
     }
 
-    #about-1,
-    #about-2 {
-        font-size: 100%;
-
+    #about {
+        font-size: 60%;
     }
 
-    #about h2,
-    #lessons h2,
-    #sign-up h2 {
+    .lessons-box {
         font-size: 25px;
     }
 
@@ -405,21 +393,18 @@ footer ul {
         padding-left: 5px;
     }
 
-    #street-box,
-    #vert-box {
+    .lessons-box {
         width: 70%;
         font-size: 15px;
         margin-left: 15%;
 
     }
 
-    #street-box h3,
-    #vert-box h3 {
+    .lessons-box h3 {
         font-size: 20px;
     }
 
-    #street-box p,
-    #vert-box p {
+    .lessons-box p {
         font-size: 15px;
     }
 
@@ -441,6 +426,11 @@ footer ul {
         margin-top: 10%;
     }
 
+    .form-header{
+        font-size: 20px;
+        padding-right: 15px;
+    }
+
     footer {
         font-size: 20px;
     }
@@ -455,26 +445,23 @@ footer ul {
         background: url("../images/hero-image2.jpg") no-repeat, center center;
     }
 
-    #about h2,
-    #lessons h2,
-    #sign-up h2 {
+    .section-header {
         font-size: 45px;
     }
 
-    img {
-        height: 200px;
+    .img {
+        height: 300px;
     }
 
-    #street-box,
-    #vert-box {
+    .lessons-box {
         width: 70%;
         font-size: 15px;
         margin-left: 15%;
-
     }
 
-    #street-box h3,
-    #vert-box h3 {
+
+
+    .lessons-box h3 {
         font-size: 25px;
     }
 
@@ -529,9 +516,7 @@ footer ul {
         padding-bottom: 10%;
     }
 
-    #about h2,
-    #lessons h2,
-    #sign-up h2 {
+    .section-header {
         font-size: 45px;
     }
 
@@ -544,8 +529,7 @@ footer ul {
 
 
 
-    #street-box,
-    #vert-box {
+    .lessons-box {
         width: 70%;
         font-size: 15px;
         margin-left: 15%;
@@ -575,31 +559,21 @@ footer ul {
         overflow: hidden;
     }
 
-    #about-1,
-    #about-2 {
+    #about {
         font-size: 100%;
-    }
-
-
-    .img1,
-    .img2 {
-        padding-top: 40px;
     }
 
     #about hr {
         visibility: hidden;
     }
 
-    #about h2,
-    #lessons h2,
-    #sign-up h2 {
+    .section-header {
         font-size: 45px;
     }
 
 
 
-    #street-box,
-    #vert-box {
+    .lessons-box {
         width: 70%;
         font-size: 115%;
         margin-left: 15%;
@@ -626,16 +600,13 @@ footer ul {
         padding-left: 5px;
     }
 
-    #about h2,
-    #lessons h2,
-    #sign-up h2 {
+    .section-header {
         font-size: 45px;
     }
 
 
 
-    #street-box,
-    #vert-box {
+    .lessons-box {
         width: 50%;
         font-size: 120%;
         margin-left: 25%;
