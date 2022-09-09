@@ -1,3 +1,4 @@
+/*These are the importation of the two Google Fonts I am using throughout.*/
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cuprum&display=swap');
 
 
@@ -22,6 +23,11 @@ body {
     font-family: 'Bangers', sans-serif;
     color: black;
 
+}
+
+span {
+    font-style: italic;
+    font-weight: bold;
 }
 
 /*I learned about and used grid layout to structure the site and make it responsive with media queries. Down below is the code for that. Taken from (https://www.w3schools.com/css/css_rwd_grid.asp)*/
@@ -84,13 +90,7 @@ body {
     width: 100%;
 }
 
-span {
-    font-style: italic;
-    font-weight: bold;
-}
-
-
-
+/*Here starts the css for the Header section*/
 
 #header {
     height: 900px;
@@ -163,6 +163,8 @@ header a {
     margin-top: 5px;
 }
 
+/*Below starts the css for the About section*/
+
 #about {
     height: fit-content;
     overflow: hidden;
@@ -206,6 +208,8 @@ header a {
     height: 400px;
 }
 
+/*Below starts the css for the Lessons section*/
+
 #lessons {
     height: fit-content;
     margin-bottom: 5%;
@@ -247,6 +251,8 @@ header a {
     margin-bottom: 50px;
     padding: 0 10px 0 10px;
 }
+
+/*Below starts the css for the Signup section*/
 
 #sign-up {
     height: 900px;
@@ -317,6 +323,8 @@ form p {
     font-family: 'Bangers', sans-serif;
     padding-left: 2px;
 }
+
+/*Below starts the css for the footer*/
 
 footer {
     width: 70%;

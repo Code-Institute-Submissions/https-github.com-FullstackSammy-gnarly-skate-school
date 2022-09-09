@@ -2,7 +2,7 @@
 
 [Live site](https://fullstacksammy.github.io/gnarly-skate-school/)
 
-The Gnarly Skate School is a private skateboarding school. And the website is a place where you can read about the school and sign up to book a lesson and to have your kids and even you learn skateboaring in all its forms. We teach people of all ages and of all skill levels. We offer a safe environment, progress and a lot of fun! 
+The Gnarly Skate School is a private skateboarding school. And the website is a place where you can read about the school and sign up to book a lesson and to have your kids or you learn skateboaring in all its forms. We teach people of all ages and of all skill levels. We offer a safe environment, progress and a lot of fun! 
 
 This website is a one-page website with 4 differents sections. On this website, you as a user will be able to find a beautiful header with navigation, information about the school and pictures. The type of lessons we provide and a sign up form.
 
@@ -23,7 +23,7 @@ On the top of the site, you have the navigation bar. The logo or "headline" to t
 
 
 ### **Hero text**
-On the header, there is a hero-text wich zooms in when the site is finished loading. The hero text is clear and tells the user exactly what this site is about.
+On the header, there is a hero text wich zooms in when the site is finished loading. The hero text is clear and tells the user exactly what this site is about.
 
 
 ![an image of the hero text](assets/images/herotext.jpg)
@@ -43,7 +43,7 @@ It is very clear to the user what and who the site is for and easy to navigate t
 
 ### **The About Us section**
 
-On the About Us section, you can find all the information you need about Gnarly Skate School and what they stand for and how you can book a session. There is also 2 pictures to be seen in this section.
+On the About Us section, you can find all the information you need about the Gnarly Skate School and what they stand for and how you can book a session. There are also 2 pictures to be seen in this section.
 
 ![an image of the about section](assets/images/about.jpg)
 
@@ -64,7 +64,7 @@ This is the part of the website where you as a user can sign up to our roster an
 ![an image of the Sign Up section](assets/images/signup-section.jpg)
 
 ### **Footer**
-The footer is at the bottom of the page and shows social media links that will take you to different sites on a new tab. The icons used are from (https://fontawesome.com):
+The footer is at the bottom of the page and shows social media links that will take you to different sites on a new tab. The icons used are from [Fontawesome](https://fontawesome.com):
 - Facebook
 - Instagram
 - Twitter
