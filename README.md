@@ -1,4 +1,4 @@
-# **Gnarly Skate School**
+# Gnarly Skate School | **Portfolio Project 1 - HTML/CSS Essentials**
 
 [Live site](https://fullstacksammy.github.io/gnarly-skate-school/)
 
