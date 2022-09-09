@@ -188,16 +188,16 @@ header a {
     visibility: hidden;
 }
 
+#about p {
+    font-family: 'Cuprum', sans-serif;
+    margin-top: 7px;
+}
+
 .about-text {
     font-size: 120%;
     letter-spacing: 3px;
     width: 70%;
     margin: 15% 0 0 15%;
-}
-
-#about p {
-    font-family: 'Cuprum', sans-serif;
-    margin-top: 7px;
 }
 
 .img {
@@ -249,32 +249,12 @@ header a {
     padding: 0 10px 0 10px;
 }
 
-.button {
-    border-radius: 5px;
-    text-align: center;
-    display: block;
-    font-size: 150%;
-    font-family: 'Bangers', sans-serif;
-    background-color: black;
-    color: #fafafa;
-    margin: 0 auto;
-    padding-right: 5px;
-    line-height: 150%;
-}
-
-.button:hover {
-    cursor: pointer;
-    background-color: #fafafa;
-    color: black;
-}
-
 #sign-up {
     height: 900px;
     /*This photo was taken from (https://unsplash.com/photos/ISkeH2SLqNU)*/
     background-image: url('../images/sign-up.jpg');
     background-color: white;
 }
-
 
 .form-header {
     text-align: center;
@@ -283,6 +263,7 @@ header a {
     padding-right: 15px;
     font-family: 'Bangers', sans-serif;
 }
+
 /*The design for this signup form was inspired by code institutes Love Running project. (https://github.com/Code-Institute-Org/love-running-2.0)*/
 .signup-form {
     text-align: center;
@@ -426,7 +407,7 @@ footer ul {
         margin-top: 10%;
     }
 
-    .form-header{
+    .form-header {
         font-size: 20px;
         padding-right: 15px;
     }
